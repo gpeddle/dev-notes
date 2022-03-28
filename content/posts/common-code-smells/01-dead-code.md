@@ -1,18 +1,18 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Dead Code"
+date: 2022-03-28T18:17:06-04:00
 draft: true
 
-# weight: 1
+weight: 1
 # aliases: ["/first"]
-tags: ["software"]
+tags: ["software","code-smells","quality"]
 author: "Greg Peddle"
 # author: ["Me", "You"] # multiple authors
 showToc: false
 TocOpen: false
 hidemeta: false
 comments: false
-description: "Description Text."
+description: "Part 1 of [Common Code Smells](common-code-smells)."
 #canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: true
@@ -33,3 +33,4 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
+Dead, unreachable code. The junk drawer of your codebase.

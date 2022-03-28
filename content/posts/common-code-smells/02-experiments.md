@@ -1,18 +1,18 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Experiments"
+date: 2022-03-28T18:20:24-04:00
 draft: true
 
-# weight: 1
+weight: 2
 # aliases: ["/first"]
-tags: ["software"]
+tags: ["software","code-smells","quality"]
 author: "Greg Peddle"
 # author: ["Me", "You"] # multiple authors
-showToc: false
-TocOpen: false
+showToc: true
+TocOpen: true
 hidemeta: false
 comments: false
-description: "Description Text."
+description: "Part 2 of Common Code Smells."
 #canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: true

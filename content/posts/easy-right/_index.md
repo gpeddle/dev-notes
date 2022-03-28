@@ -1,7 +1,7 @@
 ---
 title: "Easy, Right?"
 date: 2015-05-01T08:48:30-04:00
-draft: true
+draft: false
 
 # weight: 1
 # aliases: ["/first"]
@@ -10,7 +10,6 @@ author: "Greg Peddle"
 # author: ["Me", "You"] # multiple authors
 showToc: false
 TocOpen: false
-draft: false
 hidemeta: false
 comments: false
 description: "A leading question that loses every time."

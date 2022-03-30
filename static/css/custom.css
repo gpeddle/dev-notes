@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Source+Code+Pro&display=swap");
+
+:root {
+  --default-background-color: #ffffff;
+  --default-text-color: #333333;
+  --default-heading-color: #333333;
+
+  --default-text-font: "Open Sans", sans-serif;
+  --default-heading-font: "Merriweather", sans-serif;
+
+  --navbar-background-color: #445599;
+  --navbar-text-color: #eeeeff;
+
+  --footer-background-color: ##333333;
+  --footer-text-color: #eeeeff;
+
+  --code-background-color: #f5f7fa;
+  --code-text-color: #42464c;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  color: var(--default-heading-color);
+  font-family: var(--default-heading-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--default-heading-color);
+  font-family: var(--default-heading-font);
+}
+
+#nav-heading {
+  color: var(--default-heading-color);
+  font-family: var(--default-text-font);
+  font-size: 2rem;
+}
+
+h1.title {
+  color: var(--default-heading-color);
+  font-size: 3rem;
+}
+
+article h1.title {
+  color: var(--default-heading-color);
+  font-size: 2rem;
+}
+
+pre,
+pre code {
+  background-color: var(--code-background-color);
+  color: var(--code-text-color);
+}
+
+body {
+  font-family: var(--default-text-font);
+}
+
+#navbar {
+  background-color: var(--navbar-background-color);
+  color: var(--navbar-text-color);
+}
+.nav,
+.nav-title,
+.nav-item a,
+a.nav-item {
+  background-color: inherit;
+  color: inherit;
+}
+
+.main {
+  background-color: var(--default-background-color);
+  color: var(--default-text-color);
+}
+
+.footer {
+  background-color: var(--footer-background-color);
+  color: var(--footer-text-color);
+}
+
+#nav-heading {
+  color: var(--navbar-text-color);
+}
+.nav-title.is-5 {
+  font-size: 18px;
+}
+
+nav-item a.is-active, .nav-item a:hover, a.nav-item.is-active, a.nav-item:hover {
+    color: var(--header-ext-color);
+}
+
+.draft {
+    font-style: italic;
+    font-size: 0.8em;
+}
+.pretitle {
+  font-family: var(--default-text-font);
+  font-size: 18px;
+  line-height: 1.125;
+}
+
+.pretitle code {
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 2px 3px;
+}
+
+.pretitle strong {
+  color: #222324;
+}
+
+.pretitle.is-1 {
+  font-size: 48px;
+}
+
+.pretitle.is-1 code,
+.pretitle.is-2 {
+  font-size: 40px;
+}
+
+.pretitle.is-2 code,
+.pretitle.is-3 {
+  font-size: 28px;
+}
+
+.pretitle.is-3 code,
+.pretitle.is-4 {
+  font-size: 24px;
+}
+
+.pretitle.is-4 code,
+.pretitle.is-5 {
+  font-size: 18px;
+}
+
+.pretitle.is-5 code,
+.pretitle.is-6,
+.pretitle.is-6 code {
+  font-size: 14px;
+}
+
+.pretitle.tags,
+.pretitle.date {
+  line-height: 1.5em;
+}
+
+.pretitle.is-normal {
+  font-weight: 400;
+}
+
+.pretitle.is-normal strong {
+  font-weight: 700;
+}

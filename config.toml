@@ -1,7 +1,7 @@
 baseurl = "https://example.com"
 languageCode = "en"
-title = "/dev/notes"
-theme = "kiss"
+title = "Greg Peddle"
+theme = "quark"
 copyright = "&copy; <a href=\"https://github.com/gpeddle\">Greg Peddle</a>"
 #disqusShortname = "shortname"
 googleAnalytics = ""
@@ -20,7 +20,7 @@ customCSS = ["css/custom.css"]
 adsense = "" # Adsense ID (ID only, without ca-pub-)
 enableSocial = true # Adds OpenGraph and Twitter cards
 homeTitle = "Notes on Software Development" # Title for home page
-poweredby = true # Adds powered by hugo and kiss below Copyright
+poweredby = true # Adds powered by hugo and quark below Copyright
 related = true # Includes related articles at the bottom of the article
 codeCopy = true # Add copy button above code blocks
 taxonomiesCount = true # Add taxonomies count
@@ -50,20 +50,14 @@ rss = "index.xml" # Add this to show RSS button in social.
 [params.social.config]
 platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
 
-#[params.matomoAnalytics]
-#siteID = 1
-#rootURL = "//matomo.example.com/"
+[params.sections_left]
 
-#[params.fathomAnalytics]
-#rootURL = "//fathom.example.com/"
 
-#[params.hotjarAnalytics]
-#hjid = 1
-
-#[params.plausibleAnalytics]
-#domain = ribice.ba
+[params.sections_right]
+"/posts/" = "Posts"
+"/projects/" = "Projects"
+"/about" = "About"
 
 [taxonomies]
 tag ="tags"
 
-[blackfriday]

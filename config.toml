@@ -2,11 +2,15 @@ baseurl = "https://example.com"
 languageCode = "en"
 title = "Greg Peddle"
 theme = "quark"
+
 copyright = "&copy; <a href=\"https://github.com/gpeddle\">Greg Peddle</a>"
 #disqusShortname = "shortname"
 googleAnalytics = ""
 Paginate = 5 # Number of posts per page
 enableRobotsTXT = true
+
+[params.logo]
+#navbar_logo_url = "/apple-touch-icon.png"
 
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
@@ -51,7 +55,7 @@ rss = "index.xml" # Add this to show RSS button in social.
 platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
 
 [params.sections_left]
-
+#"/" = "Home"
 
 [params.sections_right]
 "/posts/" = "Posts"

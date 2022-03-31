@@ -1,6 +1,6 @@
 ---
 title: "Easy, Right?"
-date: 2015-05-01T08:48:30-04:00
+date: 2015-08-28T08:48:30-04:00
 draft: false
 author: "Greg Peddle"
 tags: ["software"]

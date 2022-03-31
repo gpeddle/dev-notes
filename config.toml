@@ -1,7 +1,7 @@
 baseurl = "https://example.com"
 languageCode = "en"
-title = "Greg Peddle"
-theme = "quark"
+title = "/dev/notes - Notes on Software Development"
+theme = "hugo-quark"
 
 copyright = "&copy; <a href=\"https://github.com/gpeddle\">Greg Peddle</a>"
 #disqusShortname = "shortname"

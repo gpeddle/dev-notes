@@ -1,0 +1,3 @@
+[submodule "themes/hugo-quark"]
+	path = themes/hugo-quark
+	url = https://github.com/gpeddle/hugo-quark

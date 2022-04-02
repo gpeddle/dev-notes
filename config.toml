@@ -55,12 +55,12 @@ rss = "index.xml" # Add this to show RSS button in social.
 platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
 
 [params.sections_left]
-#"/" = "Home"
+#"/dev-notes" = "Home"
 
 [params.sections_right]
-"/posts/" = "Posts"
-"/projects/" = "Projects"
-"/about" = "About"
+"/dev-notes/posts/" = "Posts"
+"/dev-notes/projects/" = "Projects"
+"/dev-notes/about" = "About"
 
 [taxonomies]
 tag ="tags"

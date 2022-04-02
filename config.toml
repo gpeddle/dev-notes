@@ -1,4 +1,4 @@
-baseurl = "https://example.com"
+baseurl = "https://gpeddle.github.io/dev-notes"
 languageCode = "en"
 title = "/dev/notes - Notes on Software Development"
 theme = "hugo-quark"

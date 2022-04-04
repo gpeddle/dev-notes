@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://gpeddle.github.io/dev-notes/sitemap.xml
+Sitemap: https://gregpeddle.com/sitemap.xml

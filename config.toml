@@ -1,4 +1,4 @@
-baseurl = "https://gpeddle.github.io/dev-notes"
+baseurl = "https://gregpeddle.com"
 languageCode = "en"
 title = "/dev/notes - Notes on Software Development"
 theme = "hugo-quark"
@@ -58,9 +58,9 @@ platforms = ["github","facebook","twitter","instagram","email","codepen","linked
 #"/dev-notes" = "Home"
 
 [params.sections_right]
-"/dev-notes/posts/" = "Posts"
-"/dev-notes/projects/" = "Projects"
-"/dev-notes/about" = "About"
+"/posts/" = "Posts"
+"/projects/" = "Projects"
+"/about" = "About"
 
 [taxonomies]
 tag ="tags"
